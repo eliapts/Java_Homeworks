@@ -2,7 +2,7 @@ import java.util.ArrayList;
 import java.util.List;
 
 
-class Main implements interfaceMain {
+class Main implements interfacem {
   public  int a,b;
 
   Main(int a, int b){
