@@ -1,4 +1,4 @@
-interface interfaceMain{
+interface interfacem{
    void methodOne();
    void methodTwo();
    void methodThree();
