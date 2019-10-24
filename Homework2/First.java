@@ -2,7 +2,7 @@ import java.io.BufferedWriter;
 import java.io.FileWriter;
 import java.io.IOException;
 
-public class Main{
+public class First{
 
     public static void main(String[] args) throws
     
