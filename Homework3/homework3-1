@@ -6,7 +6,7 @@ class Main {
 
   int pick;
   Random rand = new Random();
- 
+
   public void method1() {
     for (int i = 0; i <= 12; i++) {
       pick = rand.nextInt(100);
@@ -15,15 +15,14 @@ class Main {
     }
     System.out.println("12 შემთხვევითი რიცხვია: " + "\n" + intarray);
   }
- 
-  int j[] = {0,2,4,6,8,10};
-  public void method2(){
-   
-    for (int i = j.length-1; i>=0; i--){
-     
-        intarray.remove(j[i]);
-      
-    }
+
+  public void method2() {
+    int i = 0;
+    for (Iterator<Integer> iterator = intarray.iterator(); iterator.hasNext();) {
+      iterator.next();
+      if (i % 2 == 0)
+        iterator.remove();
+      i++;}
 
     System.out.println("luwi indexebis amogebit" + intarray);
   }
@@ -32,6 +31,6 @@ class Main {
     Main obj = new Main();
     obj.method1();
     obj.method2();
-    
+
   }
 }
